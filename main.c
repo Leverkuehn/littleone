@@ -8,6 +8,11 @@ void printArray(int *a, int count)
 	printf(" %d]\n", a[count - 1]);
 }
 
+void trace_test(char **args)
+{
+	
+}
+
 int main()
 {
 	printf("Hello!\n");
