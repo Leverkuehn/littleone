@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <math.h>
 
 void printArray(int *a, int count)
 {
@@ -8,9 +9,9 @@ void printArray(int *a, int count)
 	printf(" %d]\n", a[count - 1]);
 }
 
-int rand_main()
+int rand_main(int module)
 {
-	return 1;
+	return rand() % module;
 }
 
 int main()
