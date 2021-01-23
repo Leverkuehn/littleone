@@ -16,7 +16,7 @@ int rand_main(int module)
 
 void trace_test(char **args)
 {
-	
+	printf("tracing\n");
 }
 
 int main()
