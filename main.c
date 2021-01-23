@@ -8,6 +8,11 @@ void printArray(int *a, int count)
 	printf(" %d]\n", a[count - 1]);
 }
 
+int rand_main()
+{
+	return 1;
+}
+
 int main()
 {
 	printf("Hello!\n");
