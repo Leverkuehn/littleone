@@ -14,6 +14,11 @@ int rand_main(int module)
 	return rand() % module;
 }
 
+void trace_test(char **args)
+{
+	
+}
+
 int main()
 {
 	printf("Hello!\n");
