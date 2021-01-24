@@ -21,7 +21,7 @@ void trace_test(char **args)
 
 int main()
 {
-	printf("Hello!\n");
+	printf("Hello there!\n");
 
 	return 0;
 }
